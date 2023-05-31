@@ -1,3 +1,24 @@
-﻿<Properties StartupConfiguration="{CF4A4411-94D0-4F74-BE34-501BBA184EAA}|Default">
+﻿<Properties StartupConfiguration="{8DF17703-36CC-46C0-A01C-E04CD1EE2E71}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.docker-compose PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.netcore6test PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument=".gitignore">
+    <Files>
+      <File FileName=".gitignore" Line="5" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="netcore6test" expanded="True">
+            <Node name="netcore6test" expanded="True">
+              <Node name=".gitignore" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>
