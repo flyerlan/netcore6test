@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "pW4hf3XfT+61jZkhb6h3LzCTU33XnlVGU4vK/duQ//Kv3V1g6nsOZO/0Q/9BQ6M3ZX8fNPnYXRV1s5a5HjXZ1w==",
+  "success": true,
+  "projectFilePath": "/Users/mac/Projects/netcore6/repo/netcore6test/netcore6test/netcore6test.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://localhost:5555/v3/index.json'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    }
+  ]
+}
