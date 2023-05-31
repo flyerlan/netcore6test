@@ -1,0 +1,4 @@
+apiVersion: v2
+name: netcore6test
+description: test by lan
+version: 0.1.0

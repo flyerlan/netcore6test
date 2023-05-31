@@ -1,0 +1,19 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: netcore6test
+  namespace: {{ default "staging" .Release.Namespace }}
+  annotations:
+    kubernetes.io/ingress.class: addon-http-application-routing
+spec:
+  rules:
+    - host: lan-{{ default "staging" .Release.Namespace }}.{{ .Values.dns.name }}
+      http:
+        paths:
+          - backend:
+              service:
+                name: netcore6test
+                port:
+                  name: http
+            path: /
+            pathType: Prefix

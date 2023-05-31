@@ -1,0 +1,6 @@
+image:
+  registry: flyerlanacr
+  name: netcore6test
+  tag: latest
+dns:
+  name: 4848012d95414314920e.japaneast.aksapp.io
